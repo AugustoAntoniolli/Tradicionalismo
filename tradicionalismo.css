@@ -1,0 +1,626 @@
+body
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFE7E7;
+}	
+header
+{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 8%;
+	background-color: #FC7070;
+	border: 2px, solid, #000;
+	border-radius: 10px;
+	border-top: none;
+	z-index: 10000;
+}
+main
+{
+	width: 74%;
+	float: left;
+}
+footer
+{
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+}	
+aside
+{
+	width: 25%;
+	float: right;
+	margin-top: 20%;
+}
+aside.pgp
+{
+	width: 25%;
+	float: right;
+	margin-top: 4%;
+	text-align: center;
+}			
+img#imgLupa
+{
+	border: 0px;
+	width: 22px;
+	position: fixed;
+	top: 20px;
+	left: 230px;
+}	
+.login
+{
+	width: 4%;
+	border: 2px;
+	position: fixed;
+	top: 3%;
+	right: 15%;
+	border: 0px solid #000;
+	border-radius: 5px;
+}	
+img.usuario
+{
+	border: 0px;
+	width: 3%;
+	position: fixed;
+	right: 2%;
+	top: 1%;
+}	
+img.notificacao
+{
+	border: 0px;
+	width: 3%;
+	position: fixed;
+	right: 6%;
+	top: 1%;
+}	
+.cadastro
+{
+	width: 4%;
+	border: 2px;
+	position: fixed;
+	top: 3%;
+	right: 11%;
+	border: 0px solid #000;
+	border-radius: 5px;
+}	
+#busca
+{
+	position: fixed;
+	border: 2px;
+	top: 20px;
+	left: 50px;
+}
+.nav
+{
+	display: inline;
+	width: 100%;
+	margin: 5%;
+}	
+.principal
+{
+	padding-top: 200px;
+}	
+a
+{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+}		
+img.img_not
+{
+	width: 25%;
+	float: left;
+	margin: 20px;
+}
+p.noticia
+{
+	width: 90%;
+	margin: 1%;
+}
+img#img_manoelito
+{
+	width: 25%;
+	float: right;
+	margin: 1%;
+}
+.navi_pgp
+{
+	background-color: #FF4848;
+	padding: 20px;
+	margin-top: 50px;
+	z-index: 10000;
+}
+ul.navi
+{
+	position: fixed;
+	top: 6%;
+	width: 100%;
+	height: 5%;
+	padding-top: 15px;
+	background-color: #FF4848;
+	z-index: 10000;
+}
+h1
+{
+	padding-left: 20px;
+}
+h2
+{
+	padding-left: 20px;
+}
+h3
+{
+	padding-left: 20px;
+}
+h4
+{
+	padding-left: 20px;
+}
+h5
+{
+	padding-left: 20px;
+}
+p
+{
+	padding-left: 20px;
+	font-size: 17px;
+}
+table
+{
+	padding-left: 20px;
+	border: none;
+}
+ul
+{
+	padding-left: 20px;
+}
+dl
+{
+	padding-left: 20px;
+}
+img
+{
+	padding-left: 20px;
+}
+img#tordesilhas
+{
+	width: 30%;
+	float: right;
+	margin: 10px;
+}
+p#p_tordesilhas
+{
+	margin-bottom: 3%;
+}
+img#habitantes
+{
+	width: 20%;
+	float: left;
+	margin: 10px;
+}
+p#p_habitantes
+{
+	margin-bottom: 3%;
+}
+img#missoes
+{
+	width: 20%;
+	float: right;
+	margin: 10px;
+}
+img#madri
+{
+	width: 20%;
+	float: left;
+	margin: 5px;
+}
+img#municipios
+{
+	width: 20%;
+	float: right;
+	margin: 5px;
+}
+table#t_municipios
+{
+	width: 20%;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+p#p_municipios
+{
+	margin-bottom: 7%;
+}
+th,td
+{
+	padding: 5px;
+}
+tr#rio_grande
+{
+	background-color: #E3D891;
+}
+tr#porto_alegre
+{
+	background-color: #B94B4B;
+}
+tr#santo_ant
+{
+	background-color: #2E5727;
+}
+tr#rio_pardo
+{
+	background-color: #9C56C2;
+}
+img#italianos
+{
+	width: 35%;
+	float: right;
+	margin: 10px;
+}
+table#colono
+{
+	width: 37%;
+	float: left;
+	margin: 20px;
+}
+p#colonin
+{
+	margin-top: 10%;
+	margin-bottom: 5%
+}
+th#colonias
+{
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 3px solid #000;
+	border-left: none;
+	border-right: none;
+}
+td.colonia
+{
+	border: none;
+	background-color: #FF7B7B;
+}
+td.colonia2
+{
+	border: none;
+	background-color: #fff
+}
+img#negros
+{
+	margin: 3%;
+	float: right;
+}
+main#geografia
+{
+	width: 55%;
+}
+aside#geo
+{
+	margin-top: 13%;
+	width: 40%;
+	float: right;
+}
+table.aside
+{
+	justify-content: center;
+	aling-itens: center;
+	display: flex;
+	padding-right: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+th.aside
+{
+	border-top: 1px solid #800000;
+	border-bottom: 3px solid #FF0000;
+	border-right: none;
+	border-left: none;
+	background-color: #cfcfcf;
+}
+td.ranking
+{
+	padding: 10px;
+	background-color: #FF7B7B;
+	border-top: 2px solid #800000;
+	border-bottom: 4px solid #8B0000;
+	border-right: none;
+	border-left: none;
+	text-align: center;
+}
+td.cidade
+{
+	padding: 10px;
+	background-color: #FFF;
+	border-top: 2px solid #800000;
+	border-bottom: 4px solid #8B0000;
+	border-right: none;
+	border-left: none;	
+	text-align: center;
+}
+td.money
+{
+	padding: 10px;
+	background-color: #FF7B7B;
+	border-top: 2px solid #800000;
+	border-bottom: 4px solid #8B0000;
+	border-right: none;
+	border-left: none;
+	text-align: right;
+}
+p.aside
+{
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+h4.bibliografia
+{
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+ul.livros
+{
+	margin-left: 23%;	
+}
+img#localização
+{
+	float: right;
+	padding-right: 30%;
+}
+ul.listas
+{
+	margin: 60px 0px 70px 20px;
+}
+img#limites
+{
+	float: left;
+}
+ul#ul_limites
+{
+	margin: 50px 0px 60px 320px;
+}
+h2#h2_limites
+{
+	margin-left: 290px;
+}
+dd.vegetação
+{
+	margin-bottom: 10px;
+	border: 1px solid #8B0000;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #FFF;
+}
+dt.vegetacao
+{
+	border: 1px solid #8B0000;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #FF7B7B;
+	display: inline;
+}
+th.poa_th
+{
+	border-top: 1px solid #8B0000;
+	border-bottom: 3px solid #800000;
+	border-right: none;
+	border-left: none;
+	background-color: #000;
+	color: #FFF;
+}
+td.poa
+{
+	padding: 10px;
+	background-color: #FF7B7B;
+	border-top: 1px solid #800000;
+	border-bottom: 3px solid #8B0000;
+	border-right: none;
+	border-left: none;
+}
+td.poa2
+{
+	padding: 10px;
+	background-color: #FFF;
+	border-top: 1px solid #800000;
+	border-bottom: 3px solid #8B0000;
+	border-right: none;
+	border-left: none;
+}
+th.poderes
+{
+	border-top: 1px solid #000;
+	border-bottom: 3px solid #000;
+	border-right: none;
+	border-left: none;
+	background-color: #A52A2A;
+	color: #FFF;
+}
+table#poa
+{
+	float: left;
+	width: 50%;
+}
+h2#economy
+{
+	margin-top: 8%;
+}
+h4.prog
+{
+	margin-top: 13%;
+}
+footer
+{
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-bottom: 30px;
+	background-color: #800000;
+	color: #FFF;
+	border-radius: 15px;
+}
+li.rodape
+{
+	font-size: 16px;
+	margin: 20px;
+	text-align: left;
+	list-style-type: none;
+}
+a.footer
+{
+	color: #FFF;
+}
+img#grupo_oito
+{
+	width: 30%;
+	float: left;
+	margin: 18px;
+}
+img.lendas_1
+{
+	width: 30%;
+	float: right;
+	margin: 10px;
+}
+img.lendas_2
+{
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+h3.lendas
+{
+	margin-top: 7%;
+}
+img#umbu
+{
+	width: 31%;
+}
+img#quero_quero
+{
+	width: 20%;
+}
+p#wantwant
+{
+	margin-bottom: 16%;
+}
+img#angoera
+{
+	width: 14%;
+}
+p#generoso
+{
+	margin-bottom: 15%;
+}
+img#salamanca
+{
+	width: 20%;
+}
+article.dancas
+{
+	border: 2px solid #780000;
+	border-radius: 15px;
+	margin: 2%;
+	padding: 3%;
+	background-color: #FFF
+}
+h3#dancas
+{
+	border: 1px solid #000;
+	display: inline;
+	margin: 2%;
+	border-radius: 10px;
+	padding-right: 3%;
+	padding-left: 3%;
+	background-color: #FFF;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+video
+{
+	display: inline;
+}
+p#madrid
+{
+	margin-bottom: 9%;
+}
+article.divide
+{
+	margin-top: 8%;
+}
+main#hist
+{
+	width: 65%;
+}
+aside#historia
+{
+	width: 35%;
+}
+p#dancinhas
+{
+	margin-bottom: 3%;
+}
+li.aside
+{
+	text-align: center;
+	list-style-type: none;
+	font-size: 14px;
+	margin-bottom: 7%;
+}
+img#brasao
+{
+	float: right;
+	width: 20%;
+}
+p#p_brasao
+{
+	margin-bottom: 15%;
+}
+img#bandeira_ant
+{
+	width: 20%;
+	float: left;
+	margin-right: 2%;
+}
+img#bandeira_atu
+{
+	width: 27%;
+	float: right;
+}
+section.símbolos
+{
+	border: 2px solid #800000;
+	padding: 2%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+dt.civicos
+{
+	border: 2px solid #800000;
+	display: inline;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #FF7B7B;
+}
+dd.civicos
+{
+	border: 1px solid #000;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+}
+.pgp img
+{
+	padding: 5%;
+}
+dl
+{
+	width: 70%;
+}
+dl.full
+{
+	width: 90%;
+}

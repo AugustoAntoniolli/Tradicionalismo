@@ -1,0 +1,89 @@
+body
+{
+	background-color: #FFE7E7;
+}
+input
+{
+	border-bottom: 1px, solid, #000;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+	background-color: #ffffff;
+	padding: 6px;
+	margin-bottom: 25px;
+	width: 200px;
+}
+input#contrato
+{
+	border-bottom: 1px, solid, #000;
+	border-top: none;
+	border-right: none;
+	border-left:none;
+	background-color: #ffffff;
+	padding: 6px;
+	margin-bottom: 25px;
+	width: 50px;
+}
+input:focus
+{
+	border: 2px dashed #000;
+	outline: none;
+}
+input.botão
+{
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #cfcfcf;
+}
+input.botão:hover
+{
+	color: #000;
+	background-color: #efefef;
+}
+form.formul
+{
+	justify-content: center;
+	aling-itens: center;
+	display: flex;
+	margin-top: 7%;
+}
+p#form
+{
+	margin: 1% 35% 0% 41%;
+}
+fieldset
+{
+	border: 2px solid #000;
+	border-radius:10px;
+	background-color: #FFF;
+}
+#cadastro2
+{
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #cfcfcf;
+	position: absolute;
+	bottom: 27%;
+	left: 41%;
+}
+#login2
+{
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #cfcfcf;
+	position: absolute;
+	bottom: 15%;
+	left: 41%;
+}
+legend
+{
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 7%;
+	background-color: #FFF;
+	font-size: 17px;
+}
+p#form2
+{
+	margin: 1% 35% 0% 41%;
+}

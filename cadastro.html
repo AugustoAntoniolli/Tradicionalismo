@@ -1,0 +1,49 @@
+<!doctype html> 
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8"/> 
+  <title>Cadastro</title> 
+  <link rel="stylesheet" href="login.css"/> 
+  <script src="prefixfree.min.js"></script> 
+ </head> 
+ <body>
+	<main>
+		<form class="formul" action="index_logado.html"  method="post">
+		<fieldset>
+			<legend> Faça seu cadastro!!! </legend>
+			<p>
+				<label for="name"> Nome: </label>    
+				<input type="text" id="name" name="nome" pattern="[aA-zZ\s]+$" required/>
+			</p>
+			<p>
+				<label for="data"> Data de Nascimento: </label>    
+				<input type="text" id="data" name="date" pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" placeholder="xx/xx/xxxx" required/>
+			</p>
+			<p>
+				<label for="email"> Email: </label>
+				<input type="email" id="mail" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
+			</p>
+			<p>
+				<label for="senha"> Senha: </label>
+				<input minlength="8" maxlength="16" type= "password" id="senha" name="senha" required/>
+			</p>
+			<p>
+				<input id="contrato" name="contrato" type="checkbox" value= "sim" required/>
+				<label for="contrato"> Li e aceito todos os <a src="">Termos de Uso</a> </label>
+			</p>
+			<p>
+				<input id="contrato" name="contrato" type="checkbox" value= "sim" required/>
+				<label for="contrato"> Li e aceito a <a src="">Política de Privacidade</a> </label>
+			</p>
+			<p>
+				<input class="botão" type="submit" name="login" value="Cadastrar-se"/>
+		</fieldset>		
+		</form>		
+		<p id="form2"> Caso já possua uma conta faça seu login!!!</p>
+			<form action="login.html"  method="post">
+				<input id="login2" type="submit" name="login" value="Entrar"/>
+			</form>	
+		</p>		
+	</main>	
+</body>	
+</html>
